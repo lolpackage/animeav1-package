@@ -1,0 +1,42 @@
+{
+  "id": "animeav1-catalog",
+  "name": "AnimeAV1 Catalog",
+  "version": "1.0.0",
+  "description": "Catálogo AnimeAV1. Home (featured/latest), directorio/filtros, búsqueda y meta+episodios vía __data.json de SvelteKit. CDN animeav1.",
+  "logo": "https://cdn.animeav1.com/covers/1.jpg",
+  "author": "Community",
+  "types": [
+    "catalog"
+  ],
+  "type": "catalog",
+  "entry": "index.js",
+  "resources": [
+    "catalog",
+    "meta",
+    "search"
+  ],
+  "exports": [
+    "getHome",
+    "discover",
+    "search",
+    "getMeta"
+  ],
+  "supportedTypes": [
+    "series",
+    "movie"
+  ],
+  "contentLanguage": [
+    "es",
+    "ja"
+  ],
+  "extra": {
+    "provider": "js",
+    "language": "es",
+    "supports": {
+      "home": true,
+      "discover": true,
+      "search": true,
+      "contentPage": true
+    }
+  }
+}

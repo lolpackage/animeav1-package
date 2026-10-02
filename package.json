@@ -1,0 +1,30 @@
+{
+  "id": "animeav1",
+  "name": "AnimeAV1",
+  "version": "1.0.0",
+  "description": "Catálogo y fuente AnimeAV1 (animeav1.com). Latino/Sub. Datos vía __data.json SvelteKit. Preferencia Voe (H.264 720p TV) / MP4Upload.",
+  "logo": "https://cdn.animeav1.com/covers/1.jpg",
+  "author": "Community",
+  "tags": [
+    "anime",
+    "español",
+    "latino",
+    "animeav1",
+    "dub",
+    "sub"
+  ],
+  "addons": [
+    {
+      "id": "animeav1-catalog",
+      "path": "catalog",
+      "type": "catalog",
+      "name": "AnimeAV1 Catalog"
+    },
+    {
+      "id": "animeav1-source",
+      "path": "source",
+      "type": "source",
+      "name": "AnimeAV1"
+    }
+  ]
+}

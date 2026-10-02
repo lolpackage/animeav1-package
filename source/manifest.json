@@ -1,0 +1,33 @@
+{
+  "id": "animeav1-source",
+  "name": "AnimeAV1",
+  "version": "1.0.0",
+  "description": "Fuente AnimeAV1. getStreams recibe tmdbId = URL o slug de animeav1.com. Resuelve Voe (HLS) y MP4Upload. Solo cuando el id pertenece a AnimeAV1.",
+  "logo": "https://cdn.animeav1.com/covers/1.jpg",
+  "author": "Community",
+  "types": [
+    "source"
+  ],
+  "type": "source",
+  "entry": "index.js",
+  "resources": [
+    "stream"
+  ],
+  "exports": [
+    "getStreams",
+    "extract"
+  ],
+  "supportedTypes": [
+    "series",
+    "movie"
+  ],
+  "contentLanguage": [
+    "es",
+    "ja"
+  ],
+  "extra": {
+    "provider": "js",
+    "style": "nuvio-js",
+    "base": "https://animeav1.com"
+  }
+}
